@@ -19,9 +19,11 @@ This tool attempts to aggregate and show the data in a more useful format for th
    . bin/activate 
    git clone https://github.com/Liverpool-UK/lcc-spending.git
    cd lcc-spending
-   pip install -r requirements.txt 
+   python setup.py develop
    
    # May need to be run as postgres user 
    createdb lcc_spending -E utf8 
    psql lcc_spending -f migrations/*.sql
+   
+   import_over500 
 ```
