@@ -1,2 +1,4 @@
+psycopg2==2.6.1
 python-dateutil==2.4.2
 SQLAlchemy==1.0.9
+unicodecsv==0.14.1
